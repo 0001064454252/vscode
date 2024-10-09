@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em busca de um tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em uma biblioteca abandonada você encontra um suposto mapa com algumas instruções de como chegar a um lugar secreto com um tesouro.
+            </p>
+            <button class="btn-proximo" data-proximo="1">Você fica super animado e curioso então descide seguir as instruções do mapa.</button>
+            <button class="btn-proximo" data-proximo="2">Você o lê muito intrigado com a historia mas assim que temina o deixa de lado pois acredita que é apenas uma fantasia.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Procurar a pista no topo do pico.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico.</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você o lê muito intrigado com a historia mas assim que temina o deixa de lado pois acredita que é apenas uma fantasia.</p>
+            <button class="btn-proximo" data-proximo="5">sua história acabou, volte para a aba inicial.</button>
+            <button class="btn-proximo" data-proximo="6">Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No topo do Pico, você encontra uma antiga inscrição apontando que a próxima pista está localizada na Bahia.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para interior da Bahia.</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>sua história acabou, volte para a aba inicial.</button>
+            <button class="btn-proximo" data-proximo="7">Na Bahia, a busca pela cidade perdida se intensifica. Você se depara com uma divisão de rua, apontando para dois caminhos opostos.</button>
+     
+        </div>
+
+        <div class="passo" id="passo-7">
+            <button class="btn-proximo" data-proximo="9">Seguir pela esquerda.</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela direita.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+                <p>A estrada à esquerda leva você a uma cachoeira escondida com instruções antigas que revelam a entrada da cachoeira.</p>
+            </div></p>
+            <button class="btn-proximo" data-proximo="11">Entrar pela abertura encontrada.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma mata, com árvores. repletas de fruto. Apesar de belas vistas, não há sinais de nenhum tesouro perdido aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho.</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-entradada cachoeira.png" alt="encontrando uma cachoeira escondida.">
+            <p>Dentro da cachoeira você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar este lugar.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra uma cachoeira escondida e as instructions que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Entrar pela abertura encontrada.</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>você compartilha sua descoberta com o mundo,começa a trabalhar como historiador, ganha grandes prêmios.</p>
+            <button class="btn-proximo" data-proximo="14">você chegou ao final de sua histoória.
+                volte para o inicio.</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Você descide guardar a descoberta para você e se dedicar a mais descobertas com suas novas Iformaçoões.
+                Você se torna um aventureiro.</p>
+            <button class="btn-proximo" data-proximo="15">você chegou ao final de sua histoória.
+                Volte para o inicio.</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
